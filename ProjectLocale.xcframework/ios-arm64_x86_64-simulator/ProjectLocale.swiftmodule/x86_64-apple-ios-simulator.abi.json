@@ -1,0 +1,3907 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ProjectLocale",
+    "printedName": "ProjectLocale",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProjectLocale"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "L10n",
+        "printedName": "L10n",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Configuration",
+            "printedName": "Configuration",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "apiKey",
+                "printedName": "apiKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV6apiKeySSvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV6apiKeySSvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV6apiKeySSvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV6apiKeySSvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "serverURL",
+                "printedName": "serverURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV9serverURL10Foundation0F0Vvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV9serverURL10Foundation0F0Vvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV9serverURL10Foundation0F0Vvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV9serverURL10Foundation0F0Vvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "environment",
+                "printedName": "environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV11environmentSSvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV11environmentSSvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV11environmentSSvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV11environmentSSvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "appVersion",
+                "printedName": "appVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV10appVersionSSSgvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV10appVersionSSSgvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV10appVersionSSSgvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV10appVersionSSSgvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "fallbackBundle",
+                "printedName": "fallbackBundle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV14fallbackBundleSo8NSBundleCvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV14fallbackBundleSo8NSBundleCvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV14fallbackBundleSo8NSBundleCvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV14fallbackBundleSo8NSBundleCvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "session",
+                "printedName": "session",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV7sessionSo12NSURLSessionCvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV7sessionSo12NSURLSessionCvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLSession",
+                        "printedName": "Foundation.URLSession",
+                        "usr": "c:objc(cs)NSURLSession"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV7sessionSo12NSURLSessionCvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV7sessionSo12NSURLSessionCvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "storageDirectory",
+                "printedName": "storageDirectory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV16storageDirectory10Foundation3URLVSgvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV16storageDirectory10Foundation3URLVSgvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV16storageDirectory10Foundation3URLVSgvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV16storageDirectory10Foundation3URLVSgvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "logLevel",
+                "printedName": "logLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV8logLevelAA03LogF0Ovp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV8logLevelAA03LogF0Ovp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV8logLevelAA03LogF0Ovg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV8logLevelAA03LogF0Ovg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "logHandler",
+                "printedName": "logHandler",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProjectLocale.LogLevel, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ProjectLocale.LogLevel, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogLevel",
+                            "printedName": "ProjectLocale.LogLevel",
+                            "usr": "s:13ProjectLocale8LogLevelO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV10logHandleryyAA8LogLevelO_SStYbcvp",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV10logHandleryyAA8LogLevelO_SStYbcvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ProjectLocale.LogLevel, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(ProjectLocale.LogLevel, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LogLevel",
+                                "printedName": "ProjectLocale.LogLevel",
+                                "usr": "s:13ProjectLocale8LogLevelO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV10logHandleryyAA8LogLevelO_SStYbcvg",
+                    "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV10logHandleryyAA8LogLevelO_SStYbcvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(apiKey:serverURL:environment:appVersion:fallbackBundle:session:storageDirectory:logLevel:logHandler:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "ProjectLocale.L10n.Configuration",
+                    "usr": "s:13ProjectLocale4L10nO13ConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "hasDefaultArg": true,
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)NSBundle"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "hasDefaultArg": true,
+                    "usr": "c:objc(cs)NSURLSession"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "hasDefaultArg": true,
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ProjectLocale.LogLevel, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ProjectLocale.LogLevel, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogLevel",
+                            "printedName": "ProjectLocale.LogLevel",
+                            "usr": "s:13ProjectLocale8LogLevelO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasDefaultArg": true
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV6apiKey9serverURL11environment10appVersion14fallbackBundle7session16storageDirectory8logLevel0Q7HandlerAESS_10Foundation0H0VS2SSgSo8NSBundleCSo12NSURLSessionCAQSgAA03LogR0OyAY_SStYbctcfc",
+                "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV6apiKey9serverURL11environment10appVersion14fallbackBundle7session16storageDirectory8logLevel0Q7HandlerAESS_10Foundation0H0VS2SSgSo8NSBundleCSo12NSURLSessionCAQSgAA03LogR0OyAY_SStYbctcfc",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:13ProjectLocale4L10nO13ConfigurationV",
+            "mangledName": "$s13ProjectLocale4L10nO13ConfigurationV",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "didUpdateNotification",
+            "printedName": "didUpdateNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale4L10nO21didUpdateNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s13ProjectLocale4L10nO21didUpdateNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale4L10nO21didUpdateNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s13ProjectLocale4L10nO21didUpdateNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "ProjectLocale",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "ProjectLocale.L10n.Configuration",
+                "usr": "s:13ProjectLocale4L10nO13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO9configureyyAC13ConfigurationVKFZ",
+            "mangledName": "$s13ProjectLocale4L10nO9configureyyAC13ConfigurationVKFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:serverURL:environment:appVersion:fallbackBundle:logLevel:logHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSBundle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "ProjectLocale.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:13ProjectLocale8LogLevelO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ProjectLocale.LogLevel, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO9configure6apiKey9serverURL11environment10appVersion14fallbackBundle8logLevel0N7HandlerySS_10Foundation0H0VS2SSgSo8NSBundleCAA03LogO0OyAS_SStYbctKFZ",
+            "mangledName": "$s13ProjectLocale4L10nO9configure6apiKey9serverURL11environment10appVersion14fallbackBundle8logLevel0N7HandlerySS_10Foundation0H0VS2SSgSo8NSBundleCAA03LogO0OyAS_SStYbctKFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(_:default:table:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO6string_7default5tableS2S_S2SSgtFZ",
+            "mangledName": "$s13ProjectLocale4L10nO6string_7default5tableS2S_S2SSgtFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "currentLanguage",
+            "printedName": "currentLanguage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale4L10nO15currentLanguageSSvpZ",
+            "mangledName": "$s13ProjectLocale4L10nO15currentLanguageSSvpZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale4L10nO15currentLanguageSSvgZ",
+                "mangledName": "$s13ProjectLocale4L10nO15currentLanguageSSvgZ",
+                "moduleName": "ProjectLocale",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "availableLanguages",
+            "printedName": "availableLanguages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale4L10nO18availableLanguagesSaySSGvpZ",
+            "mangledName": "$s13ProjectLocale4L10nO18availableLanguagesSaySSGvpZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale4L10nO18availableLanguagesSaySSGvgZ",
+                "mangledName": "$s13ProjectLocale4L10nO18availableLanguagesSaySSGvgZ",
+                "moduleName": "ProjectLocale",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasCachedTranslations",
+            "printedName": "hasCachedTranslations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale4L10nO21hasCachedTranslationsSbvpZ",
+            "mangledName": "$s13ProjectLocale4L10nO21hasCachedTranslationsSbvpZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale4L10nO21hasCachedTranslationsSbvgZ",
+                "mangledName": "$s13ProjectLocale4L10nO21hasCachedTranslationsSbvgZ",
+                "moduleName": "ProjectLocale",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "revisionSnapshot",
+            "printedName": "revisionSnapshot()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : (appVersion: Swift.String, revision: Swift.Int)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(appVersion: Swift.String, revision: Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO16revisionSnapshotSDyS2S10appVersion_Si0D0tGyFZ",
+            "mangledName": "$s13ProjectLocale4L10nO16revisionSnapshotSDyS2S10appVersion_Si0D0tGyFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLanguage",
+            "printedName": "setLanguage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO11setLanguageyySSFZ",
+            "mangledName": "$s13ProjectLocale4L10nO11setLanguageyySSFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkForUpdate",
+            "printedName": "checkForUpdate(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO14checkForUpdate6localeSbSSSg_tYaKFZ",
+            "mangledName": "$s13ProjectLocale4L10nO14checkForUpdate6localeSbSSSg_tYaKFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO5fetch6localeSbSS_tYaKFZ",
+            "mangledName": "$s13ProjectLocale4L10nO5fetch6localeSbSS_tYaKFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "projectInfo",
+            "printedName": "projectInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProjectInfo",
+                "printedName": "ProjectLocale.ProjectInfo",
+                "usr": "s:13ProjectLocale0A4InfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO11projectInfoAA0aE0VyYaKFZ",
+            "mangledName": "$s13ProjectLocale4L10nO11projectInfoAA0aE0VyYaKFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "syncAll",
+            "printedName": "syncAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale4L10nO7syncAllSaySSGyYaKFZ",
+            "mangledName": "$s13ProjectLocale4L10nO7syncAllSaySSGyYaKFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13ProjectLocale4L10nO",
+        "mangledName": "$s13ProjectLocale4L10nO",
+        "moduleName": "ProjectLocale",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocaleError",
+        "printedName": "LocaleError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notConfigured",
+            "printedName": "notConfigured",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LocaleError.Type) -> ProjectLocale.LocaleError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocaleError",
+                    "printedName": "ProjectLocale.LocaleError",
+                    "usr": "s:13ProjectLocale0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LocaleError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale0B5ErrorO13notConfiguredyA2CmF",
+            "mangledName": "$s13ProjectLocale0B5ErrorO13notConfiguredyA2CmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LocaleError.Type) -> (any Swift.Error) -> ProjectLocale.LocaleError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ProjectLocale.LocaleError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(underlying: any Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LocaleError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale0B5ErrorO7networkyACs0C0_p_tcACmF",
+            "mangledName": "$s13ProjectLocale0B5ErrorO7networkyACs0C0_p_tcACmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "http",
+            "printedName": "http",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LocaleError.Type) -> (Swift.Int, Swift.String?) -> ProjectLocale.LocaleError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String?) -> ProjectLocale.LocaleError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(status: Swift.Int, body: Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LocaleError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale0B5ErrorO4httpyACSi_SSSgtcACmF",
+            "mangledName": "$s13ProjectLocale0B5ErrorO4httpyACSi_SSSgtcACmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidArchive",
+            "printedName": "invalidArchive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LocaleError.Type) -> (Swift.String) -> ProjectLocale.LocaleError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ProjectLocale.LocaleError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LocaleError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale0B5ErrorO14invalidArchiveyACSS_tcACmF",
+            "mangledName": "$s13ProjectLocale0B5ErrorO14invalidArchiveyACSS_tcACmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidManifest",
+            "printedName": "invalidManifest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LocaleError.Type) -> (Swift.String) -> ProjectLocale.LocaleError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ProjectLocale.LocaleError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LocaleError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocaleError",
+                        "printedName": "ProjectLocale.LocaleError",
+                        "usr": "s:13ProjectLocale0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale0B5ErrorO15invalidManifestyACSS_tcACmF",
+            "mangledName": "$s13ProjectLocale0B5ErrorO15invalidManifestyACSS_tcACmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0B5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s13ProjectLocale0B5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0B5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s13ProjectLocale0B5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "ProjectLocale",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13ProjectLocale0B5ErrorO",
+        "mangledName": "$s13ProjectLocale0B5ErrorO",
+        "moduleName": "ProjectLocale",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ProjectLocale"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "L10nText",
+        "printedName": "L10nText",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:default:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "L10nText",
+                "printedName": "ProjectLocale.L10nText",
+                "usr": "s:13ProjectLocale8L10nTextV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ProjectLocale8L10nTextV_7defaultACSS_SStcfc",
+            "mangledName": "$s13ProjectLocale8L10nTextV_7defaultACSS_SStcfc",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale8L10nTextV4bodyQrvp",
+            "mangledName": "$s13ProjectLocale8L10nTextV4bodyQrvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale8L10nTextV4bodyQrvg",
+                "mangledName": "$s13ProjectLocale8L10nTextV4bodyQrvg",
+                "moduleName": "ProjectLocale",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13ProjectLocale8L10nTextV",
+        "mangledName": "$s13ProjectLocale8L10nTextV",
+        "moduleName": "ProjectLocale",
+        "intro_Macosx": "13",
+        "intro_iOS": "15",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProjectLocale"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProjectLocale"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "ProjectLocale"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel.Type) -> ProjectLocale.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale8LogLevelO5debugyA2CmF",
+            "mangledName": "$s13ProjectLocale8LogLevelO5debugyA2CmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel.Type) -> ProjectLocale.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale8LogLevelO4infoyA2CmF",
+            "mangledName": "$s13ProjectLocale8LogLevelO4infoyA2CmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel.Type) -> ProjectLocale.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale8LogLevelO7warningyA2CmF",
+            "mangledName": "$s13ProjectLocale8LogLevelO7warningyA2CmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel.Type) -> ProjectLocale.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale8LogLevelO5erroryA2CmF",
+            "mangledName": "$s13ProjectLocale8LogLevelO5erroryA2CmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "critical",
+            "printedName": "critical",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel.Type) -> ProjectLocale.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale8LogLevelO8criticalyA2CmF",
+            "mangledName": "$s13ProjectLocale8LogLevelO8criticalyA2CmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Var",
+            "name": "off",
+            "printedName": "off",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel.Type) -> ProjectLocale.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ProjectLocale.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13ProjectLocale8LogLevelO3offyA2CmF",
+            "mangledName": "$s13ProjectLocale8LogLevelO3offyA2CmF",
+            "moduleName": "ProjectLocale"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "ProjectLocale.LogLevel",
+                "usr": "s:13ProjectLocale8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "ProjectLocale.LogLevel",
+                "usr": "s:13ProjectLocale8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale8LogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s13ProjectLocale8LogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ProjectLocale.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ProjectLocale8LogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s13ProjectLocale8LogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "ProjectLocale",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale8LogLevelO8rawValueSivp",
+            "mangledName": "$s13ProjectLocale8LogLevelO8rawValueSivp",
+            "moduleName": "ProjectLocale",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale8LogLevelO8rawValueSivg",
+                "mangledName": "$s13ProjectLocale8LogLevelO8rawValueSivg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13ProjectLocale8LogLevelO",
+        "mangledName": "$s13ProjectLocale8LogLevelO",
+        "moduleName": "ProjectLocale",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "defaultLogHandler",
+        "printedName": "defaultLogHandler",
+        "children": [
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(ProjectLocale.LogLevel, Swift.String) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(ProjectLocale.LogLevel, Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "ProjectLocale.LogLevel",
+                    "usr": "s:13ProjectLocale8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:13ProjectLocale17defaultLogHandleryyAA0D5LevelO_SStYbcvp",
+        "mangledName": "$s13ProjectLocale17defaultLogHandleryyAA0D5LevelO_SStYbcvp",
+        "moduleName": "ProjectLocale",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ProjectLocale.LogLevel, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ProjectLocale.LogLevel, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "ProjectLocale.LogLevel",
+                        "usr": "s:13ProjectLocale8LogLevelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:13ProjectLocale17defaultLogHandleryyAA0D5LevelO_SStYbcvg",
+            "mangledName": "$s13ProjectLocale17defaultLogHandleryyAA0D5LevelO_SStYbcvg",
+            "moduleName": "ProjectLocale",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProjectLocale"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProjectInfo",
+        "printedName": "ProjectInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "slug",
+            "printedName": "slug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0A4InfoV4slugSSvp",
+            "mangledName": "$s13ProjectLocale0A4InfoV4slugSSvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0A4InfoV4slugSSvg",
+                "mangledName": "$s13ProjectLocale0A4InfoV4slugSSvg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0A4InfoV4nameSSvp",
+            "mangledName": "$s13ProjectLocale0A4InfoV4nameSSvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0A4InfoV4nameSSvg",
+                "mangledName": "$s13ProjectLocale0A4InfoV4nameSSvg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sourceLanguage",
+            "printedName": "sourceLanguage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0A4InfoV14sourceLanguageSSvp",
+            "mangledName": "$s13ProjectLocale0A4InfoV14sourceLanguageSSvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0A4InfoV14sourceLanguageSSvg",
+                "mangledName": "$s13ProjectLocale0A4InfoV14sourceLanguageSSvg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "targetLanguages",
+            "printedName": "targetLanguages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0A4InfoV15targetLanguagesSaySSGvp",
+            "mangledName": "$s13ProjectLocale0A4InfoV15targetLanguagesSaySSGvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0A4InfoV15targetLanguagesSaySSGvg",
+                "mangledName": "$s13ProjectLocale0A4InfoV15targetLanguagesSaySSGvg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "languages",
+            "printedName": "languages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0A4InfoV9languagesSaySSGvp",
+            "mangledName": "$s13ProjectLocale0A4InfoV9languagesSaySSGvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0A4InfoV9languagesSaySSGvg",
+                "mangledName": "$s13ProjectLocale0A4InfoV9languagesSaySSGvg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environments",
+            "printedName": "environments",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0A4InfoV12environmentsSaySSGvp",
+            "mangledName": "$s13ProjectLocale0A4InfoV12environmentsSaySSGvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0A4InfoV12environmentsSaySSGvg",
+                "mangledName": "$s13ProjectLocale0A4InfoV12environmentsSaySSGvg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environmentsVersions",
+            "printedName": "environmentsVersions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ProjectLocale.ProjectInfo.EnvironmentVersions]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ProjectLocale.ProjectInfo.EnvironmentVersions]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EnvironmentVersions",
+                        "printedName": "ProjectLocale.ProjectInfo.EnvironmentVersions",
+                        "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ProjectLocale0A4InfoV20environmentsVersionsSayAC011EnvironmentE0VGSgvp",
+            "mangledName": "$s13ProjectLocale0A4InfoV20environmentsVersionsSayAC011EnvironmentE0VGSgvp",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[ProjectLocale.ProjectInfo.EnvironmentVersions]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[ProjectLocale.ProjectInfo.EnvironmentVersions]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EnvironmentVersions",
+                            "printedName": "ProjectLocale.ProjectInfo.EnvironmentVersions",
+                            "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ProjectLocale0A4InfoV20environmentsVersionsSayAC011EnvironmentE0VGSgvg",
+                "mangledName": "$s13ProjectLocale0A4InfoV20environmentsVersionsSayAC011EnvironmentE0VGSgvg",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "EnvironmentVersions",
+            "printedName": "EnvironmentVersions",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV4nameSSvp",
+                "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV4nameSSvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV4nameSSvg",
+                    "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV4nameSSvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "versions",
+                "printedName": "versions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ProjectLocale.ProjectInfo.VersionMeta]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VersionMeta",
+                        "printedName": "ProjectLocale.ProjectInfo.VersionMeta",
+                        "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV8versionsSayAC11VersionMetaVGvp",
+                "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV8versionsSayAC11VersionMetaVGvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[ProjectLocale.ProjectInfo.VersionMeta]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VersionMeta",
+                            "printedName": "ProjectLocale.ProjectInfo.VersionMeta",
+                            "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV8versionsSayAC11VersionMetaVGvg",
+                    "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV8versionsSayAC11VersionMetaVGvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentVersions",
+                    "printedName": "ProjectLocale.ProjectInfo.EnvironmentVersions",
+                    "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV6encode2toys7Encoder_p_tKF",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentVersions",
+                    "printedName": "ProjectLocale.ProjectInfo.EnvironmentVersions",
+                    "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentVersions",
+                    "printedName": "ProjectLocale.ProjectInfo.EnvironmentVersions",
+                    "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV2eeoiySbAE_AEtFZ",
+                "moduleName": "ProjectLocale",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:13ProjectLocale0A4InfoV19EnvironmentVersionsV",
+            "mangledName": "$s13ProjectLocale0A4InfoV19EnvironmentVersionsV",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "VersionMeta",
+            "printedName": "VersionMeta",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV4nameSSvp",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV4nameSSvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV4nameSSvg",
+                    "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV4nameSSvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "sourceLanguage",
+                "printedName": "sourceLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV14sourceLanguageSSvp",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV14sourceLanguageSSvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV14sourceLanguageSSvg",
+                    "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV14sourceLanguageSSvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "targetLanguages",
+                "printedName": "targetLanguages",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV15targetLanguagesSaySSGvp",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV15targetLanguagesSaySSGvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV15targetLanguagesSaySSGvg",
+                    "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV15targetLanguagesSaySSGvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "languages",
+                "printedName": "languages",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV9languagesSaySSGvp",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV9languagesSaySSGvp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV9languagesSaySSGvg",
+                    "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV9languagesSaySSGvg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "revision",
+                "printedName": "revision",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV8revisionSivp",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV8revisionSivp",
+                "moduleName": "ProjectLocale",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV8revisionSivg",
+                    "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV8revisionSivg",
+                    "moduleName": "ProjectLocale",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VersionMeta",
+                    "printedName": "ProjectLocale.ProjectInfo.VersionMeta",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV6encode2toys7Encoder_p_tKF",
+                "moduleName": "ProjectLocale",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VersionMeta",
+                    "printedName": "ProjectLocale.ProjectInfo.VersionMeta",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VersionMeta",
+                    "printedName": "ProjectLocale.ProjectInfo.VersionMeta",
+                    "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV2eeoiySbAE_AEtFZ",
+                "moduleName": "ProjectLocale",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:13ProjectLocale0A4InfoV11VersionMetaV",
+            "mangledName": "$s13ProjectLocale0A4InfoV11VersionMetaV",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "languages",
+            "printedName": "languages(for:appVersion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale0A4InfoV9languages3for10appVersionSaySSGSgSS_SSSgtF",
+            "mangledName": "$s13ProjectLocale0A4InfoV9languages3for10appVersionSaySSGSgSS_SSSgtF",
+            "moduleName": "ProjectLocale",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProjectInfo",
+                "printedName": "ProjectLocale.ProjectInfo",
+                "usr": "s:13ProjectLocale0A4InfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ProjectLocale0A4InfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13ProjectLocale0A4InfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ProjectLocale",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale0A4InfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13ProjectLocale0A4InfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ProjectLocale",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProjectInfo",
+                "printedName": "ProjectLocale.ProjectInfo",
+                "usr": "s:13ProjectLocale0A4InfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProjectInfo",
+                "printedName": "ProjectLocale.ProjectInfo",
+                "usr": "s:13ProjectLocale0A4InfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ProjectLocale0A4InfoV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13ProjectLocale0A4InfoV2eeoiySbAC_ACtFZ",
+            "moduleName": "ProjectLocale",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13ProjectLocale0A4InfoV",
+        "mangledName": "$s13ProjectLocale0A4InfoV",
+        "moduleName": "ProjectLocale",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/L10n.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/L10n.swift",
+      "kind": "StringLiteral",
+      "offset": 1911,
+      "length": 25,
+      "value": "\"ProjectLocale.didUpdate\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/L10n.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 25,
+      "value": "\"com.projectlocale.state\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/L10n.swift",
+      "kind": "StringLiteral",
+      "offset": 2767,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/L10n.swift",
+      "kind": "StringLiteral",
+      "offset": 3782,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/L10nText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/L10nText.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 31,
+      "value": "\"com.projectlocale.client.sync\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "Dictionary",
+      "offset": 723,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "Dictionary",
+      "offset": 901,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "StringLiteral",
+      "offset": 16103,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "StringLiteral",
+      "offset": 16149,
+      "length": 16,
+      "value": "\"full_sync_keys\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "StringLiteral",
+      "offset": 16193,
+      "length": 10,
+      "value": "\"new_keys\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "StringLiteral",
+      "offset": 16236,
+      "length": 15,
+      "value": "\"modified_keys\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/LocaleClient.swift",
+      "kind": "StringLiteral",
+      "offset": 16283,
+      "length": 14,
+      "value": "\"deleted_keys\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 343,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 23,
+      "value": "\"com.projectlocale.sdk\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 6,
+      "value": "\"sync\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1562,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1591,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1629,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1723,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1762,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1791,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2073,
+      "length": 44,
+      "value": "\"[ProjectLocale][\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2104,
+      "length": 1,
+      "value": "\"] \""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2116,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/ProjectInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 17,
+      "value": "\"source_language\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/ProjectInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 18,
+      "value": "\"target_languages\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/ProjectInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 17,
+      "value": "\"source_language\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/ProjectInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1441,
+      "length": 18,
+      "value": "\"target_languages\""
+    },
+    {
+      "filePath": "\/Users\/ochornyi\/Desktop\/Projects\/ProjectLocalize\/Framework\/ProjectLocale\/Sources\/ProjectLocale\/ProjectInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1496,
+      "length": 23,
+      "value": "\"environments_versions\""
+    }
+  ]
+}
