@@ -10,7 +10,8 @@ struct PLocale: App {
                 serverURL: Self.config.serverURL,
                 environment: Self.config.env,
                 appVersion: Self.config.appVersion,
-                logLevel: .debug  // verbose logging for testing; use .warning/.info in production
+                logLevel: .debug,  // verbose logging for testing; use .warning/.info in production
+                realtimeEnabled: true
             )
         } catch {
             print("[TestApp] L10n.configure failed: \(error)")
@@ -23,7 +24,7 @@ struct PLocale: App {
         }
     }
 
-    // Test credentials for the Project Locale server.
+    // Replace with your own credentials from the Project Locale dashboard.
     // `appVersion` is read from Info.plist (CFBundleShortVersionString).
     // Bumping the version in Xcode invalidates the SDK cache and triggers
     // a full sync for the new AppVersion on the server.

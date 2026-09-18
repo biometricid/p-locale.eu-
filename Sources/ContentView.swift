@@ -18,6 +18,7 @@ enum StartupPhase: Equatable {
 // MARK: - Root
 
 struct ContentView: View {
+    @ObservedObject private var observer = L10n.observer
     @State private var phase: StartupPhase = .syncing(step: "Starting…")
     @State private var lang: String = L10n.currentLanguage
 
@@ -28,6 +29,7 @@ struct ContentView: View {
                 SplashView(step: step)
             case let .ready(info, synced, expected):
                 MainView(
+                    observer: observer,
                     phase: $phase,
                     lang: $lang,
                     info: info,
@@ -39,6 +41,7 @@ struct ContentView: View {
                 )
             case let .fallbackCached(locales):
                 MainView(
+                    observer: observer,
                     phase: $phase,
                     lang: $lang,
                     info: nil,
@@ -50,6 +53,7 @@ struct ContentView: View {
                 )
             case let .fallbackEnglish(reason):
                 MainView(
+                    observer: observer,
                     phase: $phase,
                     lang: $lang,
                     info: nil,
@@ -142,6 +146,7 @@ private struct SplashView: View {
 // MARK: - Main
 
 private struct MainView: View {
+    @ObservedObject var observer: TranslationObserver
     @Binding var phase: StartupPhase
     @Binding var lang: String
     let info: ProjectInfo?
@@ -152,6 +157,7 @@ private struct MainView: View {
     let reload: () -> Void
 
     var body: some View {
+        let _ = observer.revision
         NavigationStack {
             List {
                 Section {
