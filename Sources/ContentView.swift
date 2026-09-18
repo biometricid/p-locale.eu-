@@ -156,8 +156,14 @@ private struct MainView: View {
     let modeColor: Color
     let reload: () -> Void
 
+    var currentLocales: [String] {
+        let sdk = L10n.availableLanguages
+        return Array(Set(availableLocales + sdk)).sorted()
+    }
+
     var body: some View {
         let _ = observer.revision
+        let locales = currentLocales
         NavigationStack {
             List {
                 Section {
@@ -170,7 +176,7 @@ private struct MainView: View {
                     Section("Project") {
                         LabeledContent("Name", value: info.name)
                         LabeledContent("Source", value: info.sourceLanguage)
-                        LabeledContent("Languages", value: availableLocales.joined(separator: ", "))
+                        LabeledContent("Languages", value: locales.joined(separator: ", "))
                         LabeledContent("Environments", value: info.environments.joined(separator: ", "))
                     }
                 }
@@ -189,7 +195,7 @@ private struct MainView: View {
 
                 Section("Language") {
                     Picker("Active", selection: $lang) {
-                        ForEach(availableLocales, id: \.self) { code in
+                        ForEach(locales, id: \.self) { code in
                             Text(code).tag(code)
                         }
                     }

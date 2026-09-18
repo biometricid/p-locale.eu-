@@ -29,7 +29,7 @@ struct PLocale: App {
     // Bumping the version in Xcode invalidates the SDK cache and triggers
     // a full sync for the new AppVersion on the server.
     enum config {
-        static let apiKey = "Please replace this with your own API key"
+        static let apiKey = "PL-TEST-API-KEY" // Replace with your API Key https://p-locale.eu
         static let serverURL = URL(string: "https://p-locale.eu")!
         static let env = "dev" // available environments: dev, qa, prod
         static var appVersion: String {
